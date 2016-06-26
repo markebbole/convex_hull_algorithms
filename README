@@ -12,6 +12,8 @@ Mode 1: 2D points
 Mode 2: 3D points
 Mode 3: Input geometry
 
+In 3D, the gift wrapping algorithm is used. In 2D, the quick hull algorithm is used.
+
 There are several commands:
 
 G: generate a new set of random points
