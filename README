@@ -1,0 +1,30 @@
+How to compile: ./buildit.sh
+How to run:
+./runit.sh testing {.obj file}
+
+For example:
+./runit.sh testing bunny
+./runit.sh testing dragon
+
+There are 3 different modes and you can cycle between them by pressing D.
+
+Mode 1: 2D points
+Mode 2: 3D points
+Mode 3: Input geometry
+
+There are several commands:
+
+G: generate a new set of random points
+H: generate the convex hull
+X: Zoom in
+Z: Zoom out
+P: Create a new point where the mouse is positioned
+Space: Erase all points
+Click and drag: Draw many points at once
+S: Start or stop spinning around the Y axis
+Right click and drag: Rotate the object using the mouse
+R: Reset the camera
+
+
+
+
